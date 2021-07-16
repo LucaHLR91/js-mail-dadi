@@ -3,7 +3,6 @@
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 // array dei numeri
-
 var myArray = [1, 2, 3, 4, 5, 6];
 
 // numero random utente
