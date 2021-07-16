@@ -11,9 +11,11 @@ var lista_mail = ['luca@gmail.com', 'marco@gmail.com', 'laura@gmail.com', 'elena
 
 // Verifica utente
 for (var i = 0; i < lista_mail.length; i++) {
-    if (email_utente = lista_mail[i]){
+    if (email_utente == lista_mail[i]){
         alert('puoi accedere');
-    }else {
-        alert('non puoi accedere')
     }
+}
+
+if (email_utente != lista_mail[i]) {
+    alert('non puoi accedere')
 }
