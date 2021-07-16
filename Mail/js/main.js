@@ -16,6 +16,7 @@ for (var i = 0; i < lista_mail.length; i++) {
     if (email_utente == lista_mail[i]){
         alert('puoi accedere');
         trovato = true;
+        document.getElementById('benvenuto').innerHTML = 'Benvenuto';
     }
 }
 
