@@ -10,12 +10,15 @@ var email_utente = prompt('Inserisci la tua e-mail');
 var lista_mail = ['luca@gmail.com', 'marco@gmail.com', 'laura@gmail.com', 'elena@gmail.com', 'martina@gmail.com', 'paolo@gmail.com'];
 
 // Verifica utente
+var trovato = false;
+
 for (var i = 0; i < lista_mail.length; i++) {
     if (email_utente == lista_mail[i]){
         alert('puoi accedere');
+        trovato = true;
     }
 }
 
-if (email_utente != lista_mail[i]) {
+if (trovato != true) {
     alert('non puoi accedere')
 }
