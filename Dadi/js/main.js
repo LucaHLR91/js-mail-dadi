@@ -16,8 +16,11 @@ var numero_computer = myArray[Math.floor(Math.random() * myArray.length)];
 if (numero_utente > numero_computer) {
     console.log(numero_utente, numero_computer);
     alert('giocatore vince');
-}else {
+}else if (numero_utente < numero_computer) {
     console.log(numero_utente, numero_computer);
     alert('computer vince');
+}else {
+    console.log(numero_utente, numero_computer);
+    alert('pareggio');
 }
 
